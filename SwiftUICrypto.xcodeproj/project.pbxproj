@@ -19,6 +19,7 @@
 		47FDD80D2A44D2A100E8F018 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FDD80C2A44D2A100E8F018 /* CoinRowView.swift */; };
 		47FDD80F2A44D2DE00E8F018 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FDD80E2A44D2DE00E8F018 /* PreviewProvider.swift */; };
 		47FDD8112A44D54300E8F018 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FDD8102A44D54300E8F018 /* Double.swift */; };
+		47FDD8132A44DBD200E8F018 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FDD8122A44DBD200E8F018 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		47FDD80C2A44D2A100E8F018 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		47FDD80E2A44D2DE00E8F018 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		47FDD8102A44D54300E8F018 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		47FDD8122A44DBD200E8F018 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		47FDD7FF2A44B63F00E8F018 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				47FDD8122A44DBD200E8F018 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47FDD80D2A44D2A100E8F018 /* CoinRowView.swift in Sources */,
+				47FDD8132A44DBD200E8F018 /* HomeViewModel.swift in Sources */,
 				47FDD7ED2A44B2FD00E8F018 /* ContentView.swift in Sources */,
 				47FDD8022A44B64C00E8F018 /* HomeView.swift in Sources */,
 				47FDD7EB2A44B2FD00E8F018 /* SwiftUICryptoApp.swift in Sources */,
