@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47D0C9322A49E69100AE4454 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C9312A49E69100AE4454 /* LocalFileManager.swift */; };
 		47FDD7EB2A44B2FD00E8F018 /* SwiftUICryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FDD7EA2A44B2FD00E8F018 /* SwiftUICryptoApp.swift */; };
 		47FDD7ED2A44B2FD00E8F018 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FDD7EC2A44B2FD00E8F018 /* ContentView.swift */; };
 		47FDD7F22A44B2FE00E8F018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47FDD7F12A44B2FE00E8F018 /* Preview Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47D0C9312A49E69100AE4454 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		47FDD7E72A44B2FD00E8F018 /* SwiftUICrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FDD7EA2A44B2FD00E8F018 /* SwiftUICryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoApp.swift; sourceTree = "<group>"; };
 		47FDD7EC2A44B2FD00E8F018 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				47FDD8182A4605D300E8F018 /* NetworkingManager.swift */,
+				47D0C9312A49E69100AE4454 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				47FDD80D2A44D2A100E8F018 /* CoinRowView.swift in Sources */,
 				47FDD8132A44DBD200E8F018 /* HomeViewModel.swift in Sources */,
 				47FDD7ED2A44B2FD00E8F018 /* ContentView.swift in Sources */,
+				47D0C9322A49E69100AE4454 /* LocalFileManager.swift in Sources */,
 				47FDD8022A44B64C00E8F018 /* HomeView.swift in Sources */,
 				47FDD81C2A47F71200E8F018 /* CoinImageView.swift in Sources */,
 				47FDD7EB2A44B2FD00E8F018 /* SwiftUICryptoApp.swift in Sources */,
