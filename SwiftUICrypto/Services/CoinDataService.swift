@@ -14,7 +14,6 @@ class CoinDataService {
     
     var coinSubscription: AnyCancellable?
     
-    
     init() {
         getCoins()
     }
