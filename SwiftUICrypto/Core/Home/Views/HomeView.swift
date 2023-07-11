@@ -91,16 +91,13 @@ extension HomeView {
     }
     
     private var portfolioCoinsList: some View {
-        VStack {
-            
+        List {
+            ForEach(vm.portfolioCoins) { coin in
+                CoinRowView(coin: coin, showHoldingColumn: true)
+                    .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
+            }
         }
-//        List {
-//            ForEach(vm.allCoins) { coin in
-//                CoinRowView(coin: coin, showHoldingColumn: true)
-//                    .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
-//            }
-//        }
-//        .listStyle(.plain)
+        .listStyle(.plain)
     }
     
     private var columnTitles: some View {
