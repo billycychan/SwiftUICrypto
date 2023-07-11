@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47116F3C2A5DE85200CEDA4C /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47116F3B2A5DE85200CEDA4C /* HapticManager.swift */; };
 		4791E8C62A5656BE0006D170 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4791E8C42A5656BE0006D170 /* PortfolioContainer.xcdatamodeld */; };
 		4791E8C82A56574A0006D170 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791E8C72A56574A0006D170 /* PortfolioDataService.swift */; };
 		47D0C9322A49E69100AE4454 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C9312A49E69100AE4454 /* LocalFileManager.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47116F3B2A5DE85200CEDA4C /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		4791E8C52A5656BE0006D170 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		4791E8C72A56574A0006D170 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		47D0C9312A49E69100AE4454 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 			children = (
 				47FDD8182A4605D300E8F018 /* NetworkingManager.swift */,
 				47D0C9312A49E69100AE4454 /* LocalFileManager.swift */,
+				47116F3B2A5DE85200CEDA4C /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				47FDD8062A44B77A00E8F018 /* CircleButtonView.swift in Sources */,
 				47FDD8192A4605D300E8F018 /* NetworkingManager.swift in Sources */,
 				47FAF6CA2A55BFEB006FB954 /* HomeStatView.swift in Sources */,
+				47116F3C2A5DE85200CEDA4C /* HapticManager.swift in Sources */,
 				47D0C9362A49FB6600AE4454 /* SearchBarView.swift in Sources */,
 				47FDD7FC2A44B42300E8F018 /* Color.swift in Sources */,
 				47FAF6D42A5614BF006FB954 /* CoinLogoView.swift in Sources */,
