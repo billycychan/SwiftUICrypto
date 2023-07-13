@@ -10,19 +10,30 @@ import SwiftUI
 struct SettingsView: View {
     
     @Environment(\.dismiss) var dismiss
-
+    
     let defaultURL = URL(string: "https://www.google.com")!
     let youtubeURL = URL(string: "https://www.youtube.com/c/swiftfulthinking")!
     let coingeckoURL = URL(string: "https://www.coingecko.com")!
     let personalWebsite = URL(string: "https://www.linkedin.com/in/billycychan/")!
-
+    
     var body: some View {
         NavigationView {
-            List {
-                swiftfulThinkingSection
-                coinGeckoSection
-                developerSection
-                applicationSection
+            
+            ZStack {
+                Color.theme.background
+                    .ignoresSafeArea()
+                List {
+                    swiftfulThinkingSection
+                        .listRowBackground(Color.theme.background)
+                    coinGeckoSection
+                        .listRowBackground(Color.theme.background)
+                    developerSection
+                        .listRowBackground(Color.theme.background)
+                    applicationSection
+                        .listRowBackground(Color.theme.background)
+                }
+                .background(Color.clear)
+                .scrollContentBackground(.hidden)
             }
             .font(.headline)
             .accentColor(.blue)
@@ -62,6 +73,7 @@ extension SettingsView {
             }
             .padding(.vertical)
             Link("Subscribe on Youtube 😄", destination: youtubeURL)
+            
         }
     }
     
@@ -92,7 +104,7 @@ extension SettingsView {
                         .frame(width: 100, height: 100)
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                 }
-                    
+                
                 Text("This app was developer by Billy Chan. It uses SwiftUI and is written 100% in Swift. The project benefits from multi-threading., publishers/subscribers, and data persistance")
                     .font(.callout)
                     .fontWeight(.medium)
@@ -109,7 +121,7 @@ extension SettingsView {
             Link("Privacy Policy", destination: defaultURL)
             Link("Company Website", destination: defaultURL)
             Link("Learn More", destination: defaultURL)
-
+            
         }
     }
 }
