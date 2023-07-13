@@ -16,6 +16,8 @@
 		47116F522A5F7F5300CEDA4C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47116F512A5F7F5300CEDA4C /* Date.swift */; };
 		47116F542A5F9B9300CEDA4C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47116F532A5F9B9300CEDA4C /* String.swift */; };
 		47116F582A5FA42B00CEDA4C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47116F572A5FA42B00CEDA4C /* SettingsView.swift */; };
+		47116F5C2A5FADEC00CEDA4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47116F5B2A5FADEC00CEDA4C /* LaunchScreen.storyboard */; };
+		47116F5E2A5FB88800CEDA4C /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47116F5D2A5FB88800CEDA4C /* LaunchView.swift */; };
 		4791E8C62A5656BE0006D170 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4791E8C42A5656BE0006D170 /* PortfolioContainer.xcdatamodeld */; };
 		4791E8C82A56574A0006D170 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791E8C72A56574A0006D170 /* PortfolioDataService.swift */; };
 		47D0C9322A49E69100AE4454 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D0C9312A49E69100AE4454 /* LocalFileManager.swift */; };
@@ -59,6 +61,8 @@
 		47116F512A5F7F5300CEDA4C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		47116F532A5F9B9300CEDA4C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		47116F572A5FA42B00CEDA4C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		47116F5B2A5FADEC00CEDA4C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47116F5D2A5FB88800CEDA4C /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		4791E8C52A5656BE0006D170 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		4791E8C72A56574A0006D170 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		47D0C9312A49E69100AE4454 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
@@ -147,6 +151,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		47116F592A5FADBA00CEDA4C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				47116F5A2A5FADD500CEDA4C /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		47116F5A2A5FADD500CEDA4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47116F5B2A5FADEC00CEDA4C /* LaunchScreen.storyboard */,
+				47116F5D2A5FB88800CEDA4C /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		47FDD7DE2A44B2FD00E8F018 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				47FDD8032A44B76000E8F018 /* Components */,
+				47116F592A5FADBA00CEDA4C /* Launch */,
 				47FDD7FE2A44B62F00E8F018 /* Home */,
 				47116F442A5E750F00CEDA4C /* Detail */,
 				47116F552A5FA40100CEDA4C /* Settings */,
@@ -362,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47116F5C2A5FADEC00CEDA4C /* LaunchScreen.storyboard in Resources */,
 				47FDD7F22A44B2FE00E8F018 /* Preview Assets.xcassets in Resources */,
 				47FDD7F92A44B3A000E8F018 /* Assets.xcassets in Resources */,
 			);
@@ -390,6 +413,7 @@
 				47FDD7EB2A44B2FD00E8F018 /* SwiftUICryptoApp.swift in Sources */,
 				47D0C9382A49FEE000AE4454 /* UIApplication.swift in Sources */,
 				47FDD8062A44B77A00E8F018 /* CircleButtonView.swift in Sources */,
+				47116F5E2A5FB88800CEDA4C /* LaunchView.swift in Sources */,
 				47FDD8192A4605D300E8F018 /* NetworkingManager.swift in Sources */,
 				47FAF6CA2A55BFEB006FB954 /* HomeStatView.swift in Sources */,
 				47116F482A5E753D00CEDA4C /* DetailView.swift in Sources */,
@@ -546,7 +570,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -578,7 +602,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Crypto Tracker";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
